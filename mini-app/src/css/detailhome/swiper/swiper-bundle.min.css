@@ -1,0 +1,120 @@
+/* .product-today{
+  padding: 0px 10px 5px 10px;
+} */
+.category-product {
+    color: #1e2121;
+    border-radius: 5px;
+    height: 86px;
+    width: 100%;
+    height: 100%;
+    overflow-x: scroll;
+    white-space: nowrap;
+    padding: 0px 0px 10px 10px;
+    margin-top: 5px;
+  }
+  .img-basletball{
+    width: 32px;
+  }
+  .category-product {
+    width: 100%;
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
+  .category-product::-webkit-scrollbar {
+    display: none; /* Ẩn thanh cuộn ngang */
+  }
+  .category-store::-webkit-scrollbar-thumb {
+    display: none; /* Ẩn thanh cuộn ngang */
+  }
+  
+  .slider-category {
+    display: flex;
+  }
+  
+  .slider-item {
+    flex: 0 0 auto;
+  }
+  .category-item{
+    margin-right: 10px;
+    border-radius: 5px;
+    width: 132px;
+    height: auto;
+  }
+  .custom-border-image{
+    max-width: unset;
+    width: 133px;
+    border-radius: 8px;
+    height: 136px;
+  }
+   .name-product-today{
+    display: block;
+    color: #1e2121;
+    font-weight: 500;
+    font-size: 11px;
+  }
+  .description-product-today{
+    white-space: normal; 
+    word-wrap: break-word; 
+    font-size: 11px;
+    color: #a8a8a8;
+  }
+  .content-product-today{
+    color: #028090;
+    font-weight: bold;
+  } 
+.custom-text-gray {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+  .icon-product-today{
+    float: left;
+    margin-right: 5px;
+    color: #1e2121;
+    font-weight: 500;
+    font-size: 26px;
+    padding-left: 5px;
+  }
+
+  /* flas sale  */
+  
+  .header-slider-category {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding-right: 10px;
+    margin-top: 20px;
+  }
+  
+  .infomation-sale {
+    display: flex;
+    align-items: center; 
+  }
+  
+  .icon-product-today {
+    margin-right: 6px; 
+  }
+  
+  .title-product {
+    font-size: 20px; 
+    color:#1e2121;
+    font-weight: 500;
+    width: 80%;
+  }
+  .note-product{
+    font-size: 18px;
+    color: #736d6d;
+    font-weight: 400;
+    margin-bottom: 8px; 
+    padding: 0px 10px;
+    width: 58%;
+  }
+  
+  .countdown-timer {
+    display: flex;
+    align-items: center; 
+    gap: 8px; 
+  }
+  
+  
