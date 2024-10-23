@@ -5,7 +5,7 @@ import { BsHouse } from "react-icons/bs";
 import { MdManageSearch } from "react-icons/md";
 import { BsHandbag } from "react-icons/bs";
 import { MdFavoriteBorder } from "react-icons/md";
-import "../../../css/detailhome/bottomNavigation.css";
+import "../../../css/home/style.css";
 import { useCart } from "../common/cart/CartContext";
 
 const CustomBottomNavigation = () => {
@@ -71,13 +71,13 @@ const CustomBottomNavigation = () => {
         icon={
           <div className="accounting-icon-wrapper">
            <MdManageSearch/>
-            <div className="red-circle">1</div>
+            {/* <div className="red-circle">1</div> */}
           </div>
         }
         activeIcon={
           <div className="accounting-icon-wrapper">
             <MdManageSearch/>
-            <div className="red-circle">1</div>
+            {/* <div className="red-circle">1</div> */}
           </div>
         }
         onClick={() => handleShop("shop")}
@@ -105,13 +105,13 @@ const CustomBottomNavigation = () => {
         icon={
           <div className="accounting-icon-wrapper">
             <BsHandbag />
-            {getCartCount() > 0 && <div className="red-circle">{getCartCount()}</div>}
+            {/* {getCartCount() > 0 && <div className="red-circle">{getCartCount()}</div>} */}
           </div>
         }
         activeIcon={
           <div className="accounting-icon-wrapper">
             <BsHandbag />
-            {getCartCount() > 0 && <div className="red-circle">{getCartCount()}</div>}
+            {/* {getCartCount() > 0 && <div className="red-circle">{getCartCount()}</div>} */}
           </div>
         }
         onClick={() => handleCart("cart")}
