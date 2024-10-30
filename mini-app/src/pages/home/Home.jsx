@@ -15,6 +15,8 @@ import CustomHeader from "../shared/pages/CustomHeader";
 import Introduce from "./Introduce";
 import Function from "../function/Home";
 import SpecialOffer from "./SpecialOffer";
+import ProductByCategory from "../product/ProdductByCategory";
+import Contact from "../contact/Home";
 const Home = (props) => {
   const navigate = useNavigate();
 
@@ -22,7 +24,7 @@ const Home = (props) => {
     <Box>
       <CustomHeader
         title={"Nguyễn Thanh Phong"}
-        subtitle={"Thành viên"}
+        subtitle={"Member"}
         levelAccount={"0"}
         imageUrl={"./images/logo/anhdaidien_2.jpg"}
       />
@@ -30,6 +32,8 @@ const Home = (props) => {
         <Introduce/>
         <Function/>
         <SpecialOffer/>
+        <ProductByCategory/>
+        <Contact/>
       </Page>
       <CustomBottomNavigation />
     </Box>

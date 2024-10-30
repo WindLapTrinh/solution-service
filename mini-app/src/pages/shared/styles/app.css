@@ -5,6 +5,9 @@ body {
 .zaui-bottom-navigation-content::after{
   height: unset;
 }
+.zaui-tabs-tabbar::after{
+  background-color: #65A5F6;
+}
 .zaui-btn-tertiary.zaui-btn-neutral {
   color: #ffffff !important;
 }
@@ -39,7 +42,7 @@ body {
   margin-bottom: 30px;
 }
 .icon-active {
-  color: #0c2947 !important;
+  color: #65A5F6 !important;
 }
 .check-wind {
   color: #148ed5 !important;

@@ -1,0 +1,16 @@
+.box-contact{
+    padding: 0px 10px;
+}
+.header-contact{
+    display: flex;
+    align-items: center;
+}
+.title-contact{
+    margin-left: 2px;
+    font-weight: 500;
+}
+.desc-contact{
+    font-size: 14px;
+    font-weight: 500;
+    text-align: justify;
+}
