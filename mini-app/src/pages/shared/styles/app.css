@@ -1,25 +1,30 @@
 /* setting zalo  */
-body{
+body {
   background-color: #ffffff;
 }
-.zaui-btn-tertiary.zaui-btn-neutral{
+.zaui-bottom-navigation-content::after{
+  height: unset;
+}
+.zaui-btn-tertiary.zaui-btn-neutral {
   color: #ffffff !important;
 }
-.zaui-sheet-content.zaui-sheet-content-hug-content{
+.zaui-sheet-content.zaui-sheet-content-hug-content {
   height: 387px;
   overflow-y: auto;
 }
-.zaui-input{
+.zaui-input {
   height: 33px;
   border-radius: 8px;
 }
-.zaui-input-affix-wrapper:hover, .zaui-input-affix-wrapper:focus, .zaui-input-affix-wrapper:focus-visible {
+.zaui-input-affix-wrapper:hover,
+.zaui-input-affix-wrapper:focus,
+.zaui-input-affix-wrapper:focus-visible {
   border-color: unset;
 }
-.zaui-header::after{
+.zaui-header::after {
   height: unset;
 }
-.zaui-tabs-tabbar::after{
+.zaui-tabs-tabbar::after {
   height: unset;
 }
 .size-list {
@@ -29,18 +34,18 @@ body{
 
 /* end setting  */
 /* home  */
-.home{
+.home {
   background-color: #ffffff;
   margin-bottom: 30px;
 }
-.icon-active{
-  color: #0f0f0f !important;
+.icon-active {
+  color: #0c2947 !important;
 }
-.check-wind{
+.check-wind {
   color: #148ed5 !important;
   font-size: 18px !important;
 }
-.img-ai{
+.img-ai {
   width: 50px;
   border-radius: 50px;
 }
@@ -51,16 +56,30 @@ body {
   padding-top: calc(var(--zaui-safe-area-inset-top, 0px) + 44px);
 }
 .page-custom-header {
-  background-color: #0097eb !important;
+  background-color: #65A5F6 !important;
   color: white;
 }
+.image-customter {
+  border-radius: 15px;
+}
+.title-account {
+  line-height: 8px;
+  margin-top: 8px;
+  font-size: 15px;
+}
+.sub-employee {
+  font-size: 12px;
+  font-weight: 400;
+}
 .custom-header-account {
-  height: calc(var(--zaui-safe-area-inset-top, 0px) + 56px); /* Thay 56px bằng giá trị chiều cao mong muốn */
+  height: calc(
+    var(--zaui-safe-area-inset-top, 0px) + 56px
+  ); /* Thay 56px bằng giá trị chiều cao mong muốn */
   margin-bottom: 0;
   flex: none;
 }
-.image-account{
+.image-account {
   width: 50px;
-    border-radius: 30px;
+  border-radius: 30px;
 }
 /* end user page */

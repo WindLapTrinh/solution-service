@@ -22,7 +22,7 @@ const CustomHeader = ({
           <Box flex alignItems="center" className="space-x-2">
             {imageUrl && (
               <img
-                className="w-8 h-8 rounded-lg border-inset"
+                className="w-8 h-8 rounded-lg image-customter"
                 src={imageUrl}
                 alt="Logo"
               />
@@ -34,13 +34,11 @@ const CustomHeader = ({
 
             {title && (
               <Box>
-                <Text.Title size="small">{title}</Text.Title>
+                <Text.Title className="title-account">{title}</Text.Title>
 
-                {subtitle && <Text size="xxSmall">{subtitle}</Text>}
+                {subtitle && <span className="sub-employee">{subtitle} |</span>}
                 {levelAccount && 
-                  <Box>
-                    <Text size="xxSmall">Thành viên vàng</Text>
-                  </Box>
+                    <span className="sub-employee"> {levelAccount}</span>
                 }
               </Box>
             )}

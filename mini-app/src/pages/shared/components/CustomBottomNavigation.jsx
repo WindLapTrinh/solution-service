@@ -4,7 +4,7 @@ import { BottomNavigation, Icon } from "zmp-ui";
 import { BsHouse } from "react-icons/bs";
 import { MdManageSearch } from "react-icons/md";
 import { BsHandbag } from "react-icons/bs";
-import { MdFavoriteBorder } from "react-icons/md";
+import { PiMessengerLogoLight } from "react-icons/pi";
 import "../../../css/home/style.css";
 import { useCart } from "../common/cart/CartContext";
 
@@ -81,23 +81,7 @@ const CustomBottomNavigation = () => {
           </div>
         }
         onClick={() => handleShop("shop")}
-      />
-      <BottomNavigation.Item
-        className={activeTab === "favorites" ? "icon-active" : ""}
-        label="Favorites"
-        key="favorites"
-        icon={
-          <div className="accounting-icon-wrapper">
-           <MdFavoriteBorder/>
-          </div>
-        }
-        activeIcon={
-          <div className="accounting-icon-wrapper">
-            <MdFavoriteBorder/>
-          </div>
-        }
-        onClick={() => handleFavorites("favorites")}
-      />
+      />    
       <BottomNavigation.Item
         className={activeTab === "cart" ? "icon-active" : ""}
         key="cart"
@@ -115,6 +99,23 @@ const CustomBottomNavigation = () => {
           </div>
         }
         onClick={() => handleCart("cart")}
+      />
+
+      <BottomNavigation.Item
+        className={activeTab === "message" ? "icon-active" : ""}
+        label="Message"
+        key="message"
+        icon={
+          <div className="accounting-icon-wrapper">
+           <PiMessengerLogoLight/>
+          </div>
+        }
+        activeIcon={
+          <div className="accounting-icon-wrapper">
+            <PiMessengerLogoLight/>
+          </div>
+        }
+        onClick={() => handleFavorites("message")}
       />
       <BottomNavigation.Item
         className={activeTab === "profile" ? "icon-active" : ""}
