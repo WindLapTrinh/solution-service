@@ -66,8 +66,8 @@ body {
   border-radius: 15px;
 }
 .title-account {
-  line-height: 8px;
-  margin-top: 8px;
+  /* line-height: 8px;
+  margin-top: 8px; */
   font-size: 15px;
 }
 .sub-employee {

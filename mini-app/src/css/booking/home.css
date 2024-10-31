@@ -1,0 +1,26 @@
+.box-booking {
+  display: flex;
+  flex-direction: column;
+  height: 93vh; /* Chiều cao toàn màn hình */
+}
+
+.detail-booking {
+  flex: 1;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.horizontal-tabs {
+  flex: 1;
+  overflow-y: hidden; /* Ẩn cuộn của cả Tabs */
+}
+
+.tab-content {
+  height: 100%;
+  overflow-y: auto; /* Cuộn nội dung chỉ khi phần tử trong Tab quá dài */
+}
+
+.footer-booking {
+  padding: 16px;
+}
