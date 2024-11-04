@@ -24,3 +24,11 @@
 .footer-booking {
   padding: 16px;
 }
+.btn-new-date{
+  font-weight: 500;
+  background-color: #65A5F6;
+  color: #ffffff;
+}
+.btn-new-date:hover{
+  background-color: #a3c9fa;
+}

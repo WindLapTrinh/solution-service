@@ -36,10 +36,10 @@ const CustomHeader = ({
               <Box>
                 <Text.Title className="title-account">{title}</Text.Title>
 
-                {subtitle && <span className="sub-employee">{subtitle} |</span>}
-                {levelAccount && 
+                {subtitle && <span className="sub-employee">{subtitle}</span>}
+                {/* {levelAccount && 
                     <span className="sub-employee"> {levelAccount}</span>
-                }
+                } */}
               </Box>
             )}
           </Box>

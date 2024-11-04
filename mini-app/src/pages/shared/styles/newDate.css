@@ -1,0 +1,13 @@
+.image-new-date{
+    height: 295px;
+    object-fit: cover;
+    margin: 0 auto;
+}
+.notify-new-date{
+    padding: 0px 10px;
+    text-align: center;
+}
+.text-new-date{
+    color: #696f6a;
+    font-size: 14px;
+}

@@ -2,12 +2,13 @@
 body {
   background-color: #ffffff;
 }
+*::-webkit-scrollbar {
+  display: none;
+}
 .zaui-bottom-navigation-content::after{
   height: unset;
 }
-.zaui-tabs-tabbar::after{
-  background-color: #65A5F6;
-}
+
 .zaui-btn-tertiary.zaui-btn-neutral {
   color: #ffffff !important;
 }
@@ -35,6 +36,12 @@ body {
   overflow-y: auto; /* Cho phép cuộn dọc */
 }
 
+.zaui-tabs-tabbar-item.zaui-tabs-tabbar-item-active{
+  color: #65A5F6 !important;
+}
+.zaui-tabs-tabbar-active-line{
+  background-color: #65A5F6;
+}
 /* end setting  */
 /* home  */
 .home {

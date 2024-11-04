@@ -22,7 +22,7 @@ const CustomBottomNavigation = () => {
   };
 
   const handleShop = (keyTab) => {
-    navigate("/shop", { state: { keyTab } });
+    navigate("/product", { state: { keyTab } });
     console.log("Tab active", keyTab);
   };
 
