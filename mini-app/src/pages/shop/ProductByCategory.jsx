@@ -3,7 +3,7 @@ import { Box, Tabs } from "zmp-ui";
 import ProductList from "./ProductList";
 import "../../css/shop/productByCategory.css";
 import CustomHeader from "../shared/pages/CustomHeader";
-
+import CustomBottomNavigation from "../shared/components/CustomBottomNavigation"
 const ProductByCategory = ({ categories, gotoCategory }) => {
   const [selectedIndex, setSelectedIndex] = useState(null);
 
@@ -43,6 +43,7 @@ const ProductByCategory = ({ categories, gotoCategory }) => {
           </Box>
         </Box>
       </Box>
+      <CustomBottomNavigation/>
     </Box>
   );
 };

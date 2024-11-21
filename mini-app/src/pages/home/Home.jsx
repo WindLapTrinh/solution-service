@@ -24,8 +24,6 @@ const Home = (props) => {
     <Box>
       <CustomHeader
         title={"Nguyễn Thanh Phong"}
-        subtitle={"Member | 0"}
-       
         imageUrl={"./images/logo/anhdaidien_2.jpg"}
       />
       <Page className="home">
