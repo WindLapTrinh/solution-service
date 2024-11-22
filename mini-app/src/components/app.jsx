@@ -7,6 +7,7 @@ import Home from "../pages/home/Home.jsx";
 import Booktour from "../pages/booktour/Home.jsx";
 import Newtour from "../pages/booktour/NewTour.jsx";
 import Product from "../pages/shop/ProductByCategory.jsx";
+import DetailProduct from "../pages/shop/ProductDetail.jsx"
 
 import { CartProvider } from "../pages/shared/common/cart/CartContext";
 import { PaymentProvider } from "../pages/shared/common/payment/PaymentContext";
@@ -30,6 +31,7 @@ const MyApp = () => {
                     <Route path="/booktour" element={<Booktour setTasks={setTasks} tasks={tasks} />} />
                     <Route path="/newtour" element={<Newtour setTasks={setTasks} tasks={tasks} />} />
                     <Route path="/product" element={<Product setTasks={setTasks} tasks={tasks} />} />
+                    <Route path="/detailProduct" element={<DetailProduct setTasks={setTasks} tasks={tasks} />} />
 
                   </Routes>
                 </ZMPRouter>

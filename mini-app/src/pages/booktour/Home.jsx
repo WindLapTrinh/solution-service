@@ -9,7 +9,7 @@ const Home = () => {
   const navigate = useNavigate();
   const handleOncickNewTour = () => {
     navigate("/newtour");
-  }
+  };
   return (
     <Box className="box-booking">
       <CustomHeader title={"Quản lý đặt lịch"} showBackIcon={true} />
@@ -29,7 +29,11 @@ const Home = () => {
       </Box>
 
       <Box className="footer-booking">
-        <Button fullWidth className="btn-new-date"onClick={() => handleOncickNewTour()}>
+        <Button
+          fullWidth
+          className="btn-new-date"
+          onClick={() => handleOncickNewTour()}
+        >
           Tạo lịch hẹn mới
         </Button>
       </Box>
